@@ -17,10 +17,14 @@ body {
     overflow: hidden;
 }
 
+strong {
+    font-weight: 600;
+    color: #c8c8c8;
+}
+
 a {
     text-decoration: none;
-    color: #a4b0cb;
-    color: #3c548f;
+    color: #c8c8c8;
 }
 
 .fa {
@@ -48,12 +52,12 @@ a {
 
 .name {
     font-size: 5rem;
-    color: #a4b0cb;
+    color: #c8c8c8;
 }
 
 .job {
     font-weight: 500;
-    color: #a4b0cb;
+    color: #c8c8c8;
     margin-bottom: 2rem;
 }
 
@@ -95,22 +99,22 @@ a {
 }
 
 .nav-links a:hover {
-    color: #a4b0cb;
+    color: #c8c8c8;
     font-weight: 600;
 }
 
 .nav-links a:hover::before {
     width: 10rem;
-    background-color: #a4b0cb;
+    background-color: #c8c8c8;
 }
 
 .nav-links > a.active::before {
     width: 10rem;
-    background-color: #a4b0cb;
+    background-color: #c8c8c8;
 }
 
 .nav-links > a.active {
-    color: #a4b0cb;
+    color: #c8c8c8;
     font-weight: 600;
 }
 
@@ -124,14 +128,45 @@ a {
     overflow-y: auto;
 }
 
+.about-section {
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-img-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-img-ctr img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-color: #c8c8c8;
+    border-width: 0.3rem;
+    border-style: dotted;
+    border-radius: 100%;
+    transition: 0.2s ease;
+}
+
+.portfolio-img-ctr img:hover {
+    border-color: #5eead4;
+}
+
 .portfolio-desc {
+    margin-top: 5rem;
     line-height: 1.8;
-    text-align: justify;
+    text-align: center;
     color: #868ea1;
 }
 
 .social-media a {
-    border: 1px solid #a4b0cb;
+    border: 1px solid #c8c8c8;
     color: #868ea1;
     border-radius: 1rem;
     padding: 0.5rem 0.8rem;
@@ -140,7 +175,7 @@ a {
 }
 
 .social-media a:hover {
-    background-color: #a4b0cb;
+    background-color: #c8c8c8;
     color: #0f172a;
 }
 
@@ -178,7 +213,7 @@ a {
 }
 
 .project-img {
-    width: 80%;
+    width: 85%;
     height: 80%;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -187,17 +222,17 @@ a {
 
 .project-content-ctr {
     width: 80%;
-    padding: 2rem;
+    padding: 1.6rem;
 }
 
 .project-name {
     display: inline-block;
     margin-right: 1rem;
-    color: #a4b0cb;
+    color: #c8c8c8;
 }
 
 .project-link {
-    color: #a4b0cb;
+    color: #c8c8c8;
 }
 
 .project-card:hover .project-link {
@@ -245,7 +280,7 @@ a {
     justify-content: center;
     gap: 1rem;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .technologies-ctr::before {
@@ -289,7 +324,7 @@ a {
 
 .tech-name {
     font-size: 2rem;
-    color: #a4b0cb;
+    color: #c8c8c8c3;
     margin-top: 1rem;
 }
 
