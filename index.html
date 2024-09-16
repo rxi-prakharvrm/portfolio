@@ -11,6 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
     <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
+    <!-- Programming Languages Icons -->     
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
   </head>
   <body>
     <div id="root"></div>
@@ -37,6 +41,7 @@
           pointer-events: none; /* Prevents cursor from interfering with other elements */
           transform: translate(-60%, -40%); /* Center the cursor around the mouse */
           z-index: 1000; /* Ensure the custom cursor is on top */
+          transition: transform 0.1s ease-out;
         }
       `;
       document.head.appendChild(style);

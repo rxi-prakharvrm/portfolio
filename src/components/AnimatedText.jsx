@@ -32,7 +32,7 @@ const AnimatedText = ({ text }) => {
     <p
       className="animated-text-container"
       ref={textRef}
-      onMouseEnter={handleMouseEnter}
+    //   onMouseEnter={handleMouseEnter}
     >
       {text}
     </p>

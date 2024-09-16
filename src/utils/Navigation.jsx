@@ -20,7 +20,7 @@ const Navigation = () => {
         <nav className="nav-links">
           <Link to="/about" className="page active" onClick={(() => addActiveClass())}>About</Link>
           <Link to="/projects" className="page" onClick={(() => addActiveClass())}>Projects</Link>
-          <Link to="/contact" className="page" onClick={(() => addActiveClass())}>Contact</Link>
+          <Link to="/technologies" className="page" onClick={(() => addActiveClass())}>Technologies</Link>
           <Link to="/resume" className="page" onClick={(() => addActiveClass())}>Resume</Link>
         </nav>
 
