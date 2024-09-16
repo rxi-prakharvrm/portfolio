@@ -7,7 +7,7 @@ const About = () => {
         <img src="images/prakhar.png" alt="Prakhar Verma" />
       </div>
       <div className="portfolio-username">@rxi-prakharvrm</div>
-      <p class="portfolio-desc">
+      <p className="portfolio-desc">
         I am a passionate front-end web developer with a strong command of <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>React.js</strong>. I specialize in creating visually appealing, responsive, and user-friendly interfaces that enhance user experience.
       </p>
     </div>
