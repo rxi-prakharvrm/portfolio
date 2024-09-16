@@ -47,7 +47,7 @@ const Projects = () => {
       <ProjectCard 
         projectImg="dummy.jpg" 
         projectName="Sankalan" 
-        projectLink="https://sankalan.ducs.com" 
+        projectLink="https://sankalan.ducs.in" 
         projectDesc="The annual tech fest website of DUCS, featuring event details and registration." 
         projectTechStack={["HTML", "CSS", "JS", "Node.js", "Express", "MongoDB"]} 
       />
