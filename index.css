@@ -126,6 +126,7 @@ a {
     padding: 8rem;
     font-size: 1.5rem;
     overflow-y: auto;
+    transition: 1s ease;
 }
 
 .about-section {
@@ -158,8 +159,14 @@ a {
     border-color: #5eead4;
 }
 
+.portfolio-username {
+    font-size: 2rem;
+    color: #c7b991;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
 .portfolio-desc {
-    margin-top: 5rem;
     line-height: 1.8;
     text-align: center;
     color: #868ea1;
@@ -170,7 +177,7 @@ a {
     color: #868ea1;
     border-radius: 1rem;
     padding: 0.5rem 0.8rem;
-    margin-right: 1rem;
+    margin-right: 1.6rem;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -207,17 +214,35 @@ a {
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 100%;
     overflow: hidden;
     /* border: 1px solid orange; */
 }
 
-.project-img {
-    width: 85%;
-    height: 80%;
-    object-fit: cover;
+.project-img-inner-ctr {
+    width: 200%;
+    height: 100%;
+    padding: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-50%);
+    transition: 0.5s ease;
+}
+
+.project-card:hover .project-img-inner-ctr {
+    transform: translateX(50%);
+}
+
+.project-img, .project-dummy-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
     transition: transform 0.3s ease;
     border-radius: 1rem;
+}
+
+.project-img {
+    margin-right: 3rem;
 }
 
 .project-content-ctr {
@@ -229,6 +254,7 @@ a {
     display: inline-block;
     margin-right: 1rem;
     color: #c8c8c8;
+    margin-bottom: 1rem;
 }
 
 .project-link {
