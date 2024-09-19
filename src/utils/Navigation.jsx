@@ -12,13 +12,14 @@ const Navigation = () => {
   return (
     <div className="navigation-section">
         <div className="portfolio-info">
-          <h1 className="name"><AnimatedText text="Prakhar Verma" /></h1>          
+          {/* <h1 className="name"><AnimatedText text="Prakhar Verma" /></h1> */}
+          <h1 className="name">Prakhar Verma</h1>
           <h3 className="job">Fontend Web Developer</h3>
-          <p className="desc">I build pixel-perfect, engaging, <br /> and accessible digital experiences.</p>
+          {/* <p className="desc">I build pixel-perfect, engaging, <br /> and accessible digital experiences.</p> */}
         </div>
 
         <nav className="nav-links">
-          <Link to="/about" className="page active" onClick={(() => addActiveClass())}>About</Link>
+          <Link to="/" className="page active" onClick={(() => addActiveClass())}>About</Link>
           <Link to="/projects" className="page" onClick={(() => addActiveClass())}>Projects</Link>
           <Link to="/technologies" className="page" onClick={(() => addActiveClass())}>Technologies</Link>
           <Link to="/resume" className="page" onClick={(() => addActiveClass())}>Resume</Link>
