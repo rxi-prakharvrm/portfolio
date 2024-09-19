@@ -1,13 +1,10 @@
 import React from 'react'
 
-const ProjectCard = ({projectImg, projectName, projectLink, projectDesc, projectTechStack}) => {
+const ProjectCard = ({projectDuration, projectName, projectLink, projectDesc, projectTechStack}) => {
   return (
     <div className="project-card">
-        <div className="project-img-ctr">
-            <div className="project-img-inner-ctr">
-                <img src={`images/${projectImg}`} alt="" className="project-img" />
-                <img src={`images/dummy.jpg`} alt="" className="project-dummy-img" />
-            </div>
+        <div className="project-card-date-ctr">
+            {projectDuration}
         </div>
         <div className="project-content-ctr">
             <a href={projectLink} target="_blank" rel="noreferrer" className="project-link"><h3 className="project-name">{projectName}</h3><i className="fa fa-link"></i></a>

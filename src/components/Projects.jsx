@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="content-section projects-ctr">
       <ProjectCard 
-        projectImg="brakshamchemicals.png" 
+        projectDuration="Sep 2021 - Oct 2021"
         projectName="Braksham Chemicals" 
         projectLink="https://www.brakshamchemicals.com" 
         projectDesc="Braksham Chemicals manufactures high-quality tiles using the latest equipment and machinery." 
@@ -13,7 +13,7 @@ const Projects = () => {
       />
 
       <ProjectCard 
-        projectImg="rxi-stylesynth.png" 
+        projectDuration="Sep 2021 - Oct 2021"
         projectName="RXI-StyleSynth" 
         projectLink="https://rxi-prakharvrm.github.io/rxi-stylesynth" 
         projectDesc="A GUI tool to apply styles and generate CSS for web projects." 
@@ -21,7 +21,7 @@ const Projects = () => {
       />
 
       <ProjectCard 
-        projectImg="codeauction.png" 
+        projectDuration="Sep 2021 - Oct 2021"
         projectName="CodeAuction" 
         projectLink="https://codeauction.onrender.com" 
         projectDesc="A bidding platform for live coding competitions, built with a full-stack approach." 
@@ -29,7 +29,7 @@ const Projects = () => {
       />
 
       <ProjectCard 
-        projectImg="thespicymeal.png" 
+        projectDuration="Sep 2021 - Oct 2021"
         projectName="The Spicy Meal" 
         projectLink="https://thespicymeal.vercel.app" 
         projectDesc="An online food ordering website built to learn and implement React.js concepts." 
@@ -37,7 +37,7 @@ const Projects = () => {
       />
 
       <ProjectCard 
-        projectImg="portfolio.png" 
+        projectDuration="Sep 2021 - Oct 2021"
         projectName="Portfolio" 
         projectLink="https://rxi-prakharvrm.vercel.app" 
         projectDesc="A personal portfolio showcasing skills, projects, and experience in web development." 
@@ -45,7 +45,7 @@ const Projects = () => {
       />
 
       <ProjectCard 
-        projectImg="sankalan.png" 
+        projectDuration="Sep 2021 - Oct 2021"
         projectName="Sankalan" 
         projectLink="https://sankalan.ducs.in" 
         projectDesc="The annual tech fest website of DUCS, featuring event details and registration." 
