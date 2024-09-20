@@ -27,7 +27,7 @@ const About = () => {
         null
       }
       <div className="portfolio-username">@rxi-prakharvrm</div>
-      <div className="portfolio-desc">I build <strong>pixel-perfect</strong>, engaging, and <br />accessible digital experiences.</div>
+      <div className="portfolio-desc">I build <strong>pixel-perfect</strong>, engaging, and accessible digital experiences.</div>
       <a href="/pdfs/resume.pdf" target="_blank" className="resume-btn">Resume</a>
 
       {/* <p className="portfolio-desc">
