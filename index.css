@@ -157,6 +157,7 @@ a {
 }
 
 .portfolio-img-ctr {
+    margin-bottom: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,8 +181,23 @@ a {
 .portfolio-username {
     font-size: 2rem;
     color: #c7b991;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.resume-btn {
+    margin: 2rem;
+    padding: 1rem 2.2rem;
+    background-color: transparent;
+    color: #c8c8c8;
+    font-size: 1.6rem;
+    border: 2px solid #c8c8c8;
+    border-radius: 1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.resume-btn:hover {
+    border: 2px solid #5eead4;
 }
 
 .portfolio-desc {
@@ -253,12 +269,11 @@ a {
 }
 
 .project-card:hover .project-card-date-ctr {
-    background: rgba(29, 79, 216, 0.212);
+    background: rgba(66, 102, 201, 0.316);
 }
 
 .project-card:hover {
-    transform: translateY(-0.2rem);
-    border: 1px solid rgba(29, 79, 216, 0.5);
+    border: 1px solid rgba(66, 102, 201, 0.316);
 }
 
 .project-content-ctr {
@@ -363,6 +378,10 @@ a {
     transition: background-color 0.3s ease;
 }
 
+.tech-card:hover {
+    background: rgba(66, 102, 201, 0.316);
+}
+
 .tech-icon {
     font-size: 5rem;
     color: #5eead4;
@@ -421,7 +440,7 @@ a {
     }
 
     .about-section {        
-        margin: 8rem 0;
+        margin: 5rem 0;
     }
 
     .social-media-ctr {
@@ -449,11 +468,11 @@ a {
 }
 
 @media (max-width: 400px) {
-    .about-section {
-        margin: 12rem 0;
-    }
-
     .tech-card {
         width: 100%;
+    }
+
+    .name {
+        font-size: 3.5rem;
     }
 }
