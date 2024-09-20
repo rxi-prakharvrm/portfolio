@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import SocialMedia from '../components/SocialMedia'
+import AnimatedText from '../components/AnimatedText'
 
 const Navigation = () => {
   const addActiveClass = () => {
@@ -13,7 +14,7 @@ const Navigation = () => {
         <div className="portfolio-info">
           {/* <h1 className="name"><AnimatedText text="Prakhar Verma" /></h1> */}
           <h1 className="name">Prakhar Verma</h1>
-          <h3 className="job">Fontend Web Developer</h3>
+          <h3 className="job"><AnimatedText text="Fontend Web Developer" /></h3>
           {/* <p className="desc">I build pixel-perfect, engaging, <br /> and accessible digital experiences.</p> */}
         </div>
 
