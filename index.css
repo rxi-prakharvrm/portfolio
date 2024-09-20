@@ -223,7 +223,7 @@ a {
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 1.6rem;
+    margin-bottom: 2.2rem;
     border: 1px solid rgba(29, 79, 216, 0.15);
     border-radius: 16px;
     transition: 0.3s ease;
@@ -409,6 +409,10 @@ a {
         overflow-y: auto;
         overflow: hidden;
     }
+
+    .about-section {        
+        margin: 8rem 0;
+    }
 }
 
 @media (max-width: 600px) {
@@ -428,12 +432,10 @@ a {
     .content-section {
         padding: 2.5rem;
     }
+}
 
-    .tech-icon {
-        font-size: 2rem;
-    }
-
-    .tech-name {
-        font-size: 1.2rem;
+@media (max-width: 400px) {
+    .tech-card {
+        width: 100%;
     }
 }
