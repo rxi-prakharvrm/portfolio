@@ -1,9 +1,9 @@
-import React from 'react'
 import ProjectCard from './ProjectCard'
 
 const Projects = () => {
   return (
     <div className="content-section projects-ctr">
+      <h1 className="projects-header">Projects</h1>
       <ProjectCard 
         projectDuration="Sep 2021 - Oct 2021"
         projectName="Braksham Chemicals" 

@@ -14,7 +14,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     background-color: #0f172a;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 strong {
@@ -35,7 +35,7 @@ a {
     display: grid;
     grid-template-columns: 7fr 8fr;
     grid-template-rows: 1fr;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .navigation-section {
@@ -45,7 +45,7 @@ a {
     gap: 5rem;
     height: 100vh;
     padding: 8rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .name {
@@ -110,6 +110,11 @@ a {
     font-weight: 600;
 }
 
+.social-media-ctr {
+    display: flex;
+    align-items: baseline;
+}
+
 .social-media {
     align-self: end;
 }
@@ -135,7 +140,7 @@ a {
     font-size: 1.5rem;
     overflow-y: auto;
     transition: 1s ease;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .about-section {
@@ -184,6 +189,12 @@ a {
     overflow: auto;
 }
 
+.projects-header {
+    text-align: center;
+    color: #c8c8c8;
+    padding-bottom: 5rem;
+}
+
 /* .projects-ctr::before {
     content: "";
     width: 100%;
@@ -215,7 +226,7 @@ a {
     margin-bottom: 1.6rem;
     border: 1px solid rgba(29, 79, 216, 0.15);
     border-radius: 16px;
-    transition: background-color 0.3s ease, border-radius 0.3s ease, box-shadow 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .project-card:last-child {
@@ -236,7 +247,12 @@ a {
 }
 
 .project-card:hover .project-card-date-ctr {
-    background: rgba(29, 79, 216, 0.15);
+    background: rgba(29, 79, 216, 0.212);
+}
+
+.project-card:hover {
+    transform: translateY(-0.2rem);
+    border: 1px solid rgba(29, 79, 216, 0.5);
 }
 
 .project-content-ctr {
@@ -286,26 +302,25 @@ a {
     margin: 0 1rem 1rem 0;
     border-radius: 1rem;
 }
-
-/* Resume Container */
-.resume-ctr {
-    padding: 0;
-}
-
 /* Technologies */
 .technologies-ctr {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     overflow-y: auto;
 }
 
+.technologies-header {
+    text-align: center;
+    color: #c8c8c8;
+    padding-bottom: 5rem;
+}
+
 .technologies-inner-ctr {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    justify-content: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
-    width: 64rem;
     position: relative;
 }
 
@@ -335,7 +350,8 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    height: 20rem;
+    width: 20rem;
     background-color: #1f2a48;
     border-radius: 1rem;
     transition: background-color 0.3s ease;
@@ -351,6 +367,14 @@ a {
     text-align: center;
     color: #c8c8c8c3;
     margin-top: 1rem;
+}
+
+.footer-ctr {
+    width: 100%;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* scroll bar */
@@ -381,7 +405,9 @@ a {
 
     .content-section {
         padding-left: 8rem;
+        height: auto;
         overflow-y: auto;
+        overflow: hidden;
     }
 }
 

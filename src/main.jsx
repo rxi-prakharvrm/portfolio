@@ -5,7 +5,6 @@ import App from './App'
 import Projects from './components/Projects'
 import About from './components/About'
 import Technologies from './components/Technologies'
-import Resume from './components/Resume'
 import Error from './components/Error'
 
 const appRouter = createBrowserRouter([
@@ -24,10 +23,6 @@ const appRouter = createBrowserRouter([
       {
         path: '/technologies',
         element: <Technologies />
-      },
-      {
-        path: '/resume',
-        element: <Resume />
       }
     ],
     errorElement: <Error />,

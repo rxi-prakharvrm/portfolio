@@ -1,6 +1,5 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
-import AnimatedText from '../components/AnimatedText'
+import SocialMedia from '../components/SocialMedia'
 
 const Navigation = () => {
   const addActiveClass = () => {
@@ -22,17 +21,9 @@ const Navigation = () => {
           <Link to="/" className="page active" onClick={(() => addActiveClass())}>About</Link>
           <Link to="/projects" className="page" onClick={(() => addActiveClass())}>Projects</Link>
           <Link to="/technologies" className="page" onClick={(() => addActiveClass())}>Technologies</Link>
-          <Link to="/resume" className="page" onClick={(() => addActiveClass())}>Resume</Link>
         </nav>
 
-        <ul className="social-media">
-          <a href="https://www.linkedin.com/in/rxi-prakharvrm" target="_blank" rel="noreferrer"><i className="fa fa-linkedin"></i></a>
-          <a href="https://www.github.com/rxi-prakharvrm" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a>
-          <a href="https://x.com/PV7832pv" target="_blank" rel="noreferrer"><i className="fa fa-twitter"></i></a>
-          <a href="https://www.instagram.com/rxi_prakharvrm" target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a>
-          <a href="mailto:prakhar@example.com" target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a>
-          <a href="tel:+919389247832" rel="noreferrer"><i className="fa fa-phone"></i></a>
-        </ul>
+        <SocialMedia />
     </div>
   )
 }
