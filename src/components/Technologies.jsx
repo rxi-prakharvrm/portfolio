@@ -17,6 +17,7 @@ const Technologies = () => {
         <TechCard icon={<i className="devicon-c-plain colored"></i>} name="C" />
         <TechCard icon={<i className="devicon-cplusplus-plain colored"></i>} name="C++" />
         <TechCard icon={<i className="devicon-python-plain colored"></i>} name="Python" />
+        <TechCard icon={<i className="devicon-java-plain colored"></i>} name="Java" />
       </div>
     </div>
   )
