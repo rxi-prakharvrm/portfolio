@@ -18,7 +18,7 @@ const About = () => {
   return (
     <div className="content-section about-section">
       <div className="portfolio-img-ctr">
-        <img src="images/prakhar.png" alt="Prakhar Verma" />
+        <img src="images/my_image.jpeg" alt="Prakhar Verma" />
       </div>
       {
         isSmallScreen ?
